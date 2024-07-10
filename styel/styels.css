@@ -758,13 +758,13 @@ bottom: 205px;
 /* Auto layout */
 display: flex;
 flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
+justify-content: center;
+align-items: center;
 padding: 64px 48px 64px 48px;
 border-radius: 16px;
 
 background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
-background-image: url(/assets/handshake.jpg);
+background-image: url(../assets/handshake.jpg);
 background-size: cover;
 background-position: 5px;
 }
