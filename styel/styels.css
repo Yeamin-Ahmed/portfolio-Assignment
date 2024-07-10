@@ -214,6 +214,9 @@ background: rgb(13, 19, 33);
 cursor: pointer;
 
 }
+a {
+    text-decoration: none !important;
+  }
 .btn-primary>.Contact-with-me{
  /* Contact with me */
 position: relative;
@@ -574,7 +577,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 0px;
-border: 2px solid red;
+
 }
 /* my current targets */
 .my-taegets>.mct{
@@ -596,7 +599,7 @@ order: 0;
 align-self: stretch;
 flex-grow: 0;
 margin: 111px 0px;
-border: 2px solid red;
+
 }
 
 .my-taegets>.mct>.mctt{
@@ -701,7 +704,240 @@ border-radius: 16px;
 #mctc3{
     background: rgba(255, 223, 0, 0.05);
 }
+.c-img{
+    /* Group 5 */
+ position: relative;
+ width: 56px;
+ height: 56px;
+ /* Inside Auto Layout */
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+ margin: 24px 10px; 
+ }
+.skill-tittel{
+    /* HTML */
+position: relative;
+width: 284px;
+height: 36px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
 
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.skill-tittel-discription{
+    
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+/* my next terget */
+
+
+/* i need support */
+.support{
+    /* Frame 8 */
+position: absolute;
+width: 1520px;
+height: 383.04px;
+left: 150px;
+right: 150px;
+top: 4552px;
+bottom: 205px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+border-radius: 16px;
+
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+background-image: url(/assets/handshake.jpg);
+background-size: cover;
+background-position: 5px;
+}
+.sup-cont{
+    /* Frame 10 */
+position: static;
+width: 1044px;
+height: 160px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+.stext{
+    /* Frame 6 */
+position: static;
+width: 730px;
+height: 78px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 24px 0px;
+}
+.sth{
+    /* I need Support */
+position: static;
+width: 306px;
+height: 49px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 16px 0px;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.stp{
+    position: static;
+width: 806px;
+height: 34.58px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 10px 0px; */
+opacity: 0.7;
+
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+
+.sfrom{
+    /* Frame 7 */
+position: static;
+width: 548px;
+height: 58px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 0px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+gap: 250px;
+}
+
+.itext{
+    /* Suggest me any feedback for me */
+position: static;
+width: 250px;
+height: 2px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+color: rgba(13, 19, 33, 0.4);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.ibtn{
+    /* Frame 8 */
+position: static;
+width: 120px;
+height: 58px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 20px 17px 20px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+cursor: pointer;
+}
 
 
 /* footer */
